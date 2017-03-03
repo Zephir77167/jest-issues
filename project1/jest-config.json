@@ -17,7 +17,7 @@
   ],
   "moduleDirectories": [
     "node_modules",
-    "job-board/node_modules"
+    "project1/node_modules"
   ],
   "modulePaths": [
     "<rootDir>/client"

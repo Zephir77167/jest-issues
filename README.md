@@ -1,8 +1,8 @@
-Reproduction issue 1 (https://github.com/facebook/jest/issues/3053):
+Reproduction steps (https://github.com/facebook/jest/issues/3053):
 
 ```
 git config core.symlink true
-cd job-board
+cd project1
 npm i
 npm run coverage:test
 ```
