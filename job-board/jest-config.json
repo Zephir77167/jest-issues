@@ -1,0 +1,30 @@
+{
+  "collectCoverageFrom": [
+    "client/src/utils/*.js",
+    "../shared/utils/*.js"
+  ],
+  "coverageDirectory": "<rootDir>/coverage",
+  "coverageThreshold": {
+    "global": {
+      "branches": 0,
+      "functions": 0,
+      "lines": 0,
+      "statements": 0
+    }
+  },
+  "moduleFileExtensions": [
+    "js"
+  ],
+  "moduleDirectories": [
+    "node_modules",
+    "job-board/node_modules"
+  ],
+  "modulePaths": [
+    "<rootDir>/client"
+  ],
+  "roots": [
+    "<rootDir>",
+    "<rootDir>/../shared"
+  ],
+  "testRegex": "\\.test\\.js$"
+}
